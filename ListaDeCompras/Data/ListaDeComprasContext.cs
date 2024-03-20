@@ -11,5 +11,6 @@ namespace ListaDeCompras.Data
 
         public DbSet<Products> Products {  get; set; }
         public DbSet<ListProducts> ListProducts { get; set; }
+        public DbSet<Lists> Lists { get; set; }
     }
 }
